@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Spotify Party Jukebox</title>
+    <link href='../style.css' rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="main"><%-reactOutput%></div>
+	<!-- comment out main.js to see server side only rendering -->
+	<script type="text/javascript" charset="utf-8">
+      window.__REDUX_STATE__ = '<%-reduxState%>';
+    </script>
+	<script src="../client_main.js"></script>
+  </body>
+</html>
